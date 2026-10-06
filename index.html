@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADOPT ME</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <section id="ABOUT ME" class="ABOUT-ME">
+        <h3>ABOUT ME</h3>
+        <p>Name: นันธิชา ยิ่งถาวร Student ID: 6709611815 <br>
+            คณะวิทยาศาสตร์และเทคโนโลยี สาขาวิชาคณิตศาสตร์และสถิติ</p><br>
+
+        <h3>WHAT I BUILT</h3>
+        <p>เว็บ"Adopt Me"
+            เป็นเว็บสำหรับคนที่ต้องการสัตว์เลี้ยงที่กำลังมองหาบ้านใหม่ แบบsingle page
+            ภายในเว็บมีแถบเมนู,แบนเนอร์,ปุ่มกด,ข้อมูลสัตว์เลี้ยง,รูปภาพและวิดีโอ โดยใช้HTMLสร้างเว็บ ใช้CSSตกแต่ง</p>
+        <br>
+
+        <h3>HOW I BUILT</h3>
+        <ul>
+            <li>เลือกหัวข้อเว็บที่จะทำ</li>
+            <li>คิดเลย์เอาท์ หน้าตาเว็บส่วนประกอบของเว็บ(ที่พอทำได้)</li>
+            <li>ใช้htmlแบ่งเว็บเป็นส่วนๆ</li>
+            <li>ใช้canva ทำ banner</li>
+            <li>ใช้cssตกแต่ง จัดหน้าเว็บให้พอดูได้</li>
+        </ul><br>
+        <p>เครื่องมือที่ใช้: VS Code,
+            ศึกษาจาก: chatGPT,Youtube: (MilerDev,BorntoDev,CodeSieyProgrammer)
+        </p><br>
+
+        <h3>REFECTION</h3>
+        <p>ไม่ค่อยเข้าใจการจัดหน้าตกแต่งเพราะมีโค้ดคำสั่งเยอะมาก เรียงเลย์เอาท์ไม่ค่อยถูก และไม่แม่นในเรื่องclass
+            ดูไม่ค่อยออกว่าต้องมีส่วนประกอบอะไรบ้าง ทำให้มีปัญหาตอนทำCSS หน้าเว็บไม่ออกมาแบบที่ต้องการ</p><br>
+        <p>เข้าใจการทำเว็บมากขึ้นหลังจากทำเสร็จก็เริ่มเข้าใจมากกว่าเดิมเข้าใจการใช้แท็ก แต่บางทีสับสนนิดหน่อย
+            ใช้cssคล่องขึ้น
+            จากที่ต้องดูว่าใช้คำสั่งอะไรอะไรถึงจะได้แบบที่ต้องการหลังๆก็สามารถพิมพ์ได้เองโดยที่ไม่ต้องกลับไปดูคลิปหรือแชท
+            สามารถกะขนาดได้เองมากขึ้น ในหน่วย rem,px </p><br>
+        <p>หากพัฒนาเว็บต่อก็อยากให้มีการดูรูปสัตว์เลี้ยงได้เพิ่มขึ้น ทำโดเนท
+            คัดกรองสัตว์เลี้ยงที่อยากได้เช่นสายพันธุ์,อายุ,เพศ</p>
+    </section>
+
+    <header>
+        <nav>
+            <section class="Bar">
+                <div class="nav-bar">
+                    <section class="LOGO"><a href="#HOME">ADOPT ME🐾</a></section>
+
+                    <ul class="menu">
+                        <li><a href="#HOME">HOME</a></li>
+                        <li><a href="#ABOUT ME">ABOUT ME</a></li>
+                        <li><a href="#PET">PET</a></li>
+                        <li><a href="#CONTRACT">CONTRACT</a></li>
+                    </ul>
+
+
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <!--MENU END-->
+
+    <!--MAIN START-->
+
+    <main>
+        <section id="HOME" class="main1">
+
+            <div class="container">
+
+                <div class="maincontent-con">
+
+                    
+                    <div class="main1-img">
+                        <img src="MEDIA/banner.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="vdo">
+
+            <div>
+                
+                    <video src="MEDIA\youtube-video.mp4" controls></video>
+            </div>
+
+            <div class="vdo-text">
+                <h3>Shelter Dog Has Been Looking For A Family For 6 Years | The Dodo<h3><br>
+                <p>15 มี.ค. 2025</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, temporibus!</p>
+            </div>
+
+
+        </section>
+
+        <section class="Howto">
+            <img src="MEDIA\howto.png" alt="">
+        </section>
+
+
+        <section id="PET" class="content">
+            <div class="content-title">
+                <h3>🐾 ADOPT ME 🐾</h3>
+            </div>
+            <div class="content-con">
+                <div class="content-item">
+                    <div>
+                        <img src="MEDIA\dog1.jpg" alt="">
+                        <div>
+                            <h4>ยูโร🩵</h4>
+                            <p>🎈: 18/03/2017</p>
+                            <p>🎉: 9 years</p>
+                            <p>🐾:เรียบร้อย ใจดี ไม่ค่อยเห่า ขี้อ้อน ชอบตุ๊กตา</p>
+                        </div>
+                        <div>
+                            <button class="Adopt">ADOPT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <img src="MEDIA\dog2.jpg" alt="">
+                    <div>
+                        <h4>ลัคกี้🩷</h4>
+                        <p>🎈: - </p>
+                        <p>🎉: 6 years</p>
+                        <p>🐾: ดื้อซน เอเนอจี้เยอะ หวงของ ชอบเห่า</p>
+                    </div>
+                    <div>
+                        <button class="Adopt">ADOPT</button>
+                    </div>
+
+                </div>
+
+
+
+                <div class="content-item">
+                    <img src="MEDIA\cat3.jpg" alt="">
+                    <div>
+                        <h4>กุ๊ดจี่🩵</h4>
+                        <p>🎈: 20/06/23</p>
+                        <p>🎉: 3 years</p>
+                        <p>🐾: ขี้ตกใจ ชอบทำหน้าตลก ชอบวิ่งตอนกลางคืน</p>
+                    </div>
+                    <div>
+                        <button class="Adopt">ADOPT</button>
+                    </div>
+
+                </div>
+
+                <div class="content-item">
+                    <img src="MEDIA\cat4.jpg" alt="">
+                    <div>
+                        <h4>ไอทอง🩵</h4>
+                        <p>🎈: 13/03/05</p>
+                        <p>🎉: 3 years</p>
+                        <p>🐾: กินเยอะ ชอบแกล้งตัวอื่น นอนเยอะ</p>
+                    </div>
+                    <div>
+                        <button class="Adopt">ADOPT</button>
+                    </div>
+
+                </div>
+
+                <div class="content-item">
+                    <div>
+                        <img src="MEDIA\ลิง.jpeg" alt="">
+                        <div>
+                            <h4>ข้าวเหนียว🩵</h4>
+                            <p>🎈: -</p>
+                            <p>🎉: 9 years</p>
+                            <p>🐾:เรียบร้อย ใจดี ไม่เห่าเพราะเห่าไม่ได้</p>
+                        </div>
+                        <div>
+                            <button class="Adopt">ADOPT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <img src="MEDIA\a.jpg" alt="">
+                    <div>
+                        <h4>ทาโร่🩷</h4>
+                        <p>🎈: - </p>
+                        <p>🎉: 12 years</p>
+                        <p>🐾: ติดคน อยากรู้อยากเห็น ชอบวิ่งเล่นกับตัวอื่น</p>
+                    </div>
+                    <div>
+                        <button class="Adopt">ADOPT</button>
+                    </div>
+
+                </div>
+
+
+
+                <div class="content-item">
+                    <img src="MEDIA\cat5.jpg" alt="">
+                    <div>
+                        <h4>แต้ม🩵</h4>
+                        <p>🎈: -</p>
+                        <p>🎉: 4 years</p>
+                        <p>🐾: ไม่ดื้อ สอนง่าย ฉลาด ชอบนอนในกล่อง</p>
+                    </div>
+                    <div>
+                        <button class="Adopt">ADOPT</button>
+                    </div>
+
+                </div>
+
+                <div class="content-item">
+                    <img src="MEDIA\b.jpg" alt="">
+                    <div>
+                        <h4>หลง🩵</h4>
+                        <p>🎈: 01/01/20</p>
+                        <p>🎉: 6 years</p>
+                        <p>🐾: ฉลาด นิสัยเหมือนคน กินเยอะ เข้ากับตัวอื่นได้</p>
+                    </div>
+                    <div>
+                        <button class="Adopt">ADOPT</button>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <!--MAIN END-->
+
+    <!--Footer start-->
+
+    <footer>
+        <section id="CONTRACT" class="end">
+            <div class="Barend">
+                <p>☀🐶🐱🌈Thank you🌟🐷🐸💫</p>
+                <p>© 2026 ᴅᴇsɪɢɴᴇᴅ ʙʏ FAT PET ɪɴ THAILAND</p>
+            </div>
+        </section>
+    </footer>
+
+    <!--Footer end-->
+
+</body>
+
+</html>
